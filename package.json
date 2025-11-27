@@ -35,6 +35,6 @@
 		"vite": "^7.2.4"
 	},
 	"lint-staged": {
-		"*": "pnpm run lint"
+		"*.{ts,tsx,js,jsx,vue,json,md}": ["eslint --fix", "eslint"]
 	}
 }
