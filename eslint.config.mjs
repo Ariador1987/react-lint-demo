@@ -35,4 +35,13 @@ export default antfu(
 			],
 		},
 	},
+	{
+		ignores: [
+			"node_modules/**",
+			"*-lock.yaml",
+			"dist/**",
+			"build/**",
+			".pnpm-store/*",
+		],
+	},
 );
